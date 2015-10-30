@@ -47,8 +47,8 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: glassstones_net_production
-  username: glassstones_net
-  password: <%= ENV['GLASSSTONES_NET_DATABASE_PASSWORD'] %>
+# production:
+#   <<: *default
+#   database: glassstones_net_production
+#   username: glassstones_net
+#   password: <%= ENV['GLASSSTONES_NET_DATABASE_PASSWORD'] %>
